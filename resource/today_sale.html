@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/today_sale.css">
+        <script>
+            function set_page(x){
+                //reset
+                for(var i=1;i<4;i++){
+                    for(var j=1;j<4;j++){
+                        var k="p-"+i+"-"+j;;
+                        document.getElementById(k).style.top="1000px";
+                    }
+                }
+                //set
+                let y=[,,];
+                for(var i=0;i<3;i++){
+                    y[i]="p-"+x+"-"+(i+1);
+                }
+                document.getElementById(y[0]).style.top="35px";
+                document.getElementById(y[1]).style.top="137px";
+                document.getElementById(y[2]).style.top="238px";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="today_sale">
+            <div class="title">
+                <h2>
+                    今日秒殺
+                </h2>
+                <div class="pages">
+                    <div class="page_button" href="" onmouseover="set_page(1)">1</div>
+                    <div class="page_button" href="" onmouseover="set_page(2)">2</div>
+                    <div class="page_button" href="" onmouseover="set_page(3)">3</div>
+                </div>
+            </div>
+
+            <div class="content">
+
+
+                <div class="box" id="p-1-1">
+                    <div class="text">
+                        <h3>
+                            實拉珍選
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$856
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/0F0">
+                    </div>
+                </div>
+
+                <div class="box" id="p-1-2">
+                    <div class="text">
+                        <h3>
+                            Oral-B
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$5990
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/990">
+                    </div>
+                </div>
+
+                <div class="box" id="p-1-3">
+                    <div class="text">
+                        <h3>
+                            象印
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$644
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/009">
+                    </div>
+                </div>
+
+                <div class="box" id="p-2-1">
+                    <div class="text">
+                        <h3>
+                            Lenovo
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$739
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/090">
+                    </div>
+                </div>
+
+                <div class="box" id="p-2-2">
+                    <div class="text">
+                        <h3>
+                            耐吉斯
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$16900
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/900">
+                    </div>
+                </div>
+
+                <div class="box" id="p-2-3">
+                    <div class="text">
+                        <h3>
+                            咒術迴戰
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$139.9
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/990">
+                    </div>
+                </div>
+
+                <div class="box" id="p-3-1">
+                    <div class="text">
+                        <h3>
+                            娘家
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$74
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/099">
+                    </div>
+                </div>
+
+                <div class="box" id="p-3-2">
+                    <div class="text">
+                        <h3>
+                            PUMA
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$599
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/909">
+                    </div>
+                </div>
+
+                <div class="box" id="p-3-3">
+                    <div class="text">
+                        <h3>
+                            UCC
+                        </h3>
+                        <h5>
+                            Lorem ipsum dol
+                        </h5>
+                        <span class="mark">
+                            下殺$549
+                        </span>
+                    </div>
+                    <div class="img">
+                        <img src="https://fakeimg.pl/90x85/999">
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </body>
+</html>
